@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#090b13"><title>SHIMZA & CO | PINI TOURS</title>
+<style>
+:root{--gold:#f2ca7b;--bg:#090b13;--card:#191e2b}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:#fff;font:16px/1.7 Arial,sans-serif}main{max-width:900px;margin:auto}h1,h2{color:var(--gold)}h2{font-size:24px}header{padding:210px 18px 38px;text-align:center;background:linear-gradient(0deg,#090b13,#090b1330),url('assets/image-0.webp') center/cover no-repeat}header h1{font-size:clamp(42px,10vw,68px);line-height:1.1;margin:10px 0}section{padding:22px 18px}.center{text-align:center}.panel,.choice{background:var(--card);border:1px solid #414657;border-radius:15px;padding:17px}.hotel-list{display:grid;gap:16px}.hotel{display:block;background:var(--card);border:2px solid #414657;border-radius:18px;overflow:hidden;cursor:pointer}.hotel.active,.choice.active{border-color:var(--gold)}.hotel img{display:block;width:100%;height:240px;object-fit:cover;background:#272b38}.hotel-info{padding:16px}.name{font-size:20px;font-weight:900}.price{font-size:28px;color:var(--gold);font-weight:900}.small{font-size:13px;color:#c4c7d1}.choice{display:block;margin:10px 0;cursor:pointer}input{accent-color:var(--gold);width:20px;height:20px;vertical-align:middle}.summary{text-align:center;padding:24px 15px;border:2px solid var(--gold);border-radius:20px;background:linear-gradient(140deg,#282432,#121927)}.total{font-size:clamp(40px,10vw,60px);font-weight:900;color:var(--gold)}.btn{display:block;text-align:center;text-decoration:none;padding:16px;border-radius:13px;font-weight:900;margin-top:12px;font-size:16px}.wa{background:#25d366;color:#082b15}.gold{background:var(--gold);color:#17130b}.outline{border:1px solid var(--gold);color:var(--gold)}footer{text-align:center;padding:28px;color:var(--gold)}@media(min-width:700px){.hotel-list{grid-template-columns:repeat(3,minmax(0,1fr))}.hotel img{height:180px}.name{font-size:17px}}input:focus-visible,.btn:focus-visible{outline:3px solid var(--gold);outline-offset:4px}.hotel:focus-within,.choice:focus-within{outline:2px solid var(--gold);outline-offset:3px}
+</style></head>
+<body><main id="pini">
+<header><b>PINI TOURS PRESENTS</b><h1>SHIMZA & CO</h1><b>LIMASSOL CARNIVAL EDITION</b><p>📅 12–15.03.2027 | שישי–שני | 3 לילות</p><p>🎧 14.03.2027 | THE WAREHOUSE</p></header>
+<section class="center"><h2>חופשת מסיבות בלימסול 🔥</h2><p>טיסות ✈️ מלון 🏨 כרטיסים 🎟️</p><b>חבילות החל מ־₪2,090 לאדם</b></section>
+<section><h2>✈️ פרטי החבילה</h2><div class="panel">✈️ טיסות ישירות עם אל על<br>🛫 הלוך: 12.03 בשעה 07:10<br>🛬 חזור: 15.03 בשעה 15:40<br>🧳 תיק גב + טרולי עד 8 ק״ג<br>🏨 3 לילות במלון לבחירה, כולל ארוחת בוקר<br>🎟️ כרטיס REGULAR למסיבה כלול</div></section>
+<section><h2>01 / בוחרים מלון</h2><div class="hotel-list">
+<label class="hotel active"><img loading="lazy" decoding="async" src="assets/image-1.jpg" alt="AJAX HOTEL"><div class="hotel-info"><div class="name">AJAX HOTEL ★★★★</div><div class="price">₪2,090</div><div class="small">לאדם בחדר זוגי • ארוחת בוקר</div><input type="radio" name="hotel" value="ajax" checked> בחירה</div></label>
+<label class="hotel"><img loading="lazy" decoding="async" src="assets/image-2.jpg" alt="NYX LIMASSOL rooftop pool"><div class="hotel-info"><div class="name">NYX LIMASSOL ★★★★</div><div class="price">₪2,690</div><div class="small">לאדם בחדר זוגי • ארוחת בוקר</div><input type="radio" name="hotel" value="nyx"> בחירה</div></label>
+<label class="hotel"><img loading="lazy" decoding="async" src="assets/image-3.jpg" alt="CITY OF DREAMS"><div class="hotel-info"><div class="name">CITY OF DREAMS ★★★★★</div><div class="price">₪3,090</div><div class="small">לאדם בחדר זוגי • ארוחת בוקר</div><input type="radio" name="hotel" value="city"> בחירה</div></label>
+</div></section>
+<section><h2>02 / סוג כרטיס</h2><p class="small">REGULAR כלול בחבילה. המחיר משתנה רק לפי ההפרש.</p><label class="choice"><input type="radio" name="ticket" value="student"> STUDENT — הנחה של ₪43 לאדם · לזכאים בלבד</label><label class="choice active"><input type="radio" name="ticket" value="regular" checked> REGULAR — כלול בחבילה</label><label class="choice"><input type="radio" name="ticket" value="backstage"> BACKSTAGE — תוספת ₪650 לאדם</label></section>
+<section><h2>03 / הסעות</h2><label class="choice"><input type="checkbox" id="transfer"> הוספת הסעות משדה התעופה למלון ובחזרה — תוספת ₪304 לאדם</label></section>
+<section><h2>04 / המחיר הסופי שלכם</h2><div class="summary" aria-live="polite"><b>החבילה שבחרתם</b><div class="total" id="total">₪2,090</div><b>לאדם בחדר זוגי</b><p id="couple">₪4,180 לזוג</p><p class="small" id="selection"></p><a id="book" class="btn wa" href="https://wa.me/972523046924" target="_blank" rel="noopener">📲 להזמנת החבילה בווטסאפ</a><a class="btn outline" href="https://www.go-out.co/event/shimzacolimassol?ref=a3fia92gf9" target="_blank" rel="noopener">🎟️ לרכישת כרטיסים בלבד</a></div></section>
+<section><h2>💳 אפשרויות תשלום</h2><div class="panel">✔️ עד 6 תשלומים ללא ריבית<br>✔️ אפשרות לפיצול בין כרטיסי אשראי<br>✔️ העברה בנקאית</div></section>
+<section class="center"><h2>🌍 הצטרפו ל־PINI TOURS</h2><p>דילים, חופשות, מסיבות ופסטיבלים לפני כולם!</p><a class="btn gold" href="https://chat.whatsapp.com/FC7wPtFbwFyBqq6enPlIzO" target="_blank" rel="noopener">💚 הצטרפות לקהילת הדילים</a><a class="btn outline" href="https://www.instagram.com/pini_tours_travel/" target="_blank" rel="noopener">📸 עקבו אחרינו באינסטגרם</a><a class="btn outline" href="https://www.tiktok.com/@pinishahar" target="_blank" rel="noopener">🎵 עקבו אחרינו בטיקטוק</a></section>
+<section><p class="small">המחירים לאדם בחדר זוגי בהרכב שני נוסעים. כפוף לזמינות ולאישור סופי של הספקים. כרטיס STUDENT כפוף לזכאות. המחירים עשויים להשתנות עד לאישור ההזמנה.</p></section>
+<footer><b>PINI TOURS</b><br><span class="small">YOUR EXPERIENCE STARTS HERE</span></footer>
+</main>
+<script>
+(()=>{
+const r=document.getElementById('pini');
+const hotels={ajax:{name:'AJAX HOTEL',price:2090},nyx:{name:'NYX LIMASSOL',price:2690},city:{name:'CITY OF DREAMS',price:3090}};
+const tickets={student:{name:'STUDENT',diff:-43},regular:{name:'REGULAR',diff:0},backstage:{name:'BACKSTAGE',diff:650}};
+const money=n=>'₪'+n.toLocaleString('he-IL');
+const val=name=>r.querySelector('input[name="'+name+'"]:checked').value;
+function update(){
+const h=hotels[val('hotel')],t=tickets[val('ticket')],transfer=r.querySelector('#transfer').checked;
+const total=h.price+t.diff+(transfer?304:0),tr=transfer?'כולל הסעות':'ללא הסעות';
+r.querySelector('#total').textContent=money(total);
+r.querySelector('#couple').textContent=money(total*2)+' לזוג';
+r.querySelector('#selection').textContent=h.name+' | '+t.name+' | '+tr;
+r.querySelectorAll('.hotel,.choice').forEach(el=>el.classList.toggle('active',el.querySelector('input').checked));
+const msg='שלום PINI TOURS! ✈️\nאני מעוניין/ת בחבילת SHIMZA & CO\nתאריכים: 12–15.03.2027\nמלון: '+h.name+'\nכרטיס: '+t.name+'\nהסעות: '+tr+'\nמחיר לאדם: '+money(total)+'\nמחיר לזוג: '+money(total*2)+'\nאשמח לבדוק זמינות ולהתקדם להזמנה.';
+r.querySelector('#book').href='https://wa.me/972523046924?text='+encodeURIComponent(msg);
+}
+r.addEventListener('change',e=>{if(e.target.matches('input'))update()});
+r.querySelectorAll('img').forEach(img=>{img.addEventListener('error',()=>{img.alt='תמונת המלון אינה זמינה כרגע';img.style.objectFit='contain';img.style.padding='20px'})});
+update();
+})();
+</script></body></html>
